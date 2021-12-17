@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
@@ -151,48 +152,146 @@ header {
     width: 87%;
     justify-content: center;
     margin-top: 115px;
-    padding-left:65px;
+    padding-left: 65px;
 }
 
 /* middle right section css end here  */
 
 /* main section2 css start here now */
 
-.main_section2{
+.main_section2 {
     background-image: url(image/latest-work-bg.png);
-    background-position:50% 10%;
+    background-position: 50% 10%;
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
 }
-.main_section2 h1{
+
+.main_section2 h1 {
     font-size: 50px;
     font-family: 'Mukta', sans-serif;
     font-weight: 500;
     text-align: center;
     padding-top: 70px;
 }
-.latest_work{
+
+.latest_work {
     margin-top: 50px;
     display: flex;
     width: 100%;
-    justify-content:space-around;
+    justify-content: space-around;
 }
-.work1{
-    width:30%;
+
+.work1 {
+    width: 30%;
 }
-.work1 img{
-    width:100%;
+
+.work1 img {
+    width: 100%;
 }
-.work2{
-    width:30%;
+
+.work2 {
+    width: 30%;
 }
-.work2 img{
-    width:100%;
+
+.work2 img {
+    width: 100%;
 }
-.work3{
-    width:30%;
+
+.work3 {
+    width: 30%;
 }
-.work3 img{
-    width:100%;
+
+.work3 img {
+    width: 100%;
 }
+
+/* main section2 css end here now */
+
+/* main section3 css start here now */
+
+.main_section3 {
+    background-image: url(image/footer-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-top: 80px;
+}
+
+.main_section3 h1 {
+    font-size: 50px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 65px;
+}
+/* intro box1 css start here now */
+
+.intro_box1 {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.intro_box1 h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.intro_box1 .p1 {
+    text-align: center;
+    font-size: 16px;
+    color: #5f5f60;
+    padding-bottom: 30px;
+}
+.intro_box1 .p2 {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* intro box1 css end here clear */
+
+/* intro box2 css start here clear */
+
+.intro_box2 {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #EC4C77;
+    height: 200px;
+    border-radius: 10px;
+}
+.intro_box2 p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding-top: 54px;
+}
+.intro_box2 h1{
+    color: #ffffff;
+    font-size: 38px;
+}
+
+/* intro box2 css end here clear */
+
+/* main section3 css end here now */
+
+/* footer section css start here */
+
+footer{
+    margin-top: -50px;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+    color: #6B6B6B;
+    font-size: 17px;
+}
+
+/* footer section css end here */
+
+/* End */
