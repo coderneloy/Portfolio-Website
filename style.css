@@ -1,0 +1,198 @@
+/* simple css start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    max-width: 96%;
+    margin: 0 auto;
+}
+
+/*simple css end */
+header {
+    justify-content: center;
+    background-image: url(image/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+}
+
+.section1 {
+    display: flex;
+
+}
+
+/* top left section css start here */
+.top_left_section {
+    width: 50%;
+    padding-right: 2%;
+    vertical-align: middle;
+}
+
+.top_left_section .content1 {
+    margin-top: 185px;
+    padding-left: 75px;
+    padding-right: 15px;
+}
+
+.top_left_section .content1 h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(51, 50, 50);
+}
+
+.top_left_section .content1 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #EC4C7A;
+    margin: 0px 0px 10px 0px;
+}
+
+.top_left_section .content1 p {
+    color: #727272;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.top_left_section .content1 .btn1 {
+    background-color: #EC4C77;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+/* top left section css end here */
+
+/* top right section css start hear */
+
+.top_right_section {
+    width: 45%;
+}
+
+.top_right_section img {
+    width: 85%;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+/* top right section css end hear */
+
+/* main section1 css start here  */
+
+.main_section1 {
+    justify-content: center;
+    background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 900px;
+}
+
+/* main section1 css end here  */
+
+/* middle left section start css here */
+
+.middle_left_section {
+    width: 53%;
+    padding-left: 2%;
+    vertical-align: middle;
+}
+
+.middle_left_section .content2 {
+    margin-top: 185px;
+    padding-left: 85px;
+    padding-right: 10px;
+}
+
+.middle_left_section .content2 h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(51, 50, 50);
+}
+
+.middle_left_section .content2 p {
+    color: #727272;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.middle_left_section .content2 .btn2 {
+    background-color: #EC4C77;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* middle left section end css here  */
+
+/* middle right section css start here  */
+
+.middle_right_section {
+    width: 45%;
+}
+
+.middle_right_section img {
+    width: 87%;
+    justify-content: center;
+    margin-top: 115px;
+    padding-left:65px;
+}
+
+/* middle right section css end here  */
+
+/* main section2 css start here now */
+
+.main_section2{
+    background-image: url(image/latest-work-bg.png);
+    background-position:50% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.main_section2 h1{
+    font-size: 50px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 70px;
+}
+.latest_work{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+}
+.work1{
+    width:30%;
+}
+.work1 img{
+    width:100%;
+}
+.work2{
+    width:30%;
+}
+.work2 img{
+    width:100%;
+}
+.work3{
+    width:30%;
+}
+.work3 img{
+    width:100%;
+}
